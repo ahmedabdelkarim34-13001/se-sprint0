@@ -1,0 +1,10 @@
+4-a: git init
+4-b: git add -i --> 4 (add untracked) --> select files
+4-c: git add -i --> 3 (revert) --> select file (nutshell.html)
+4-d: git add -i --> 4 (add untracked) --> select file (nutshell.html)
+4-e: configure git usermail and username by git global --user.email ahmed.abdelkarim@student.guc.edu.eg then it global --user.name ahmedabdelkarim34-13001. then, git commit
+4-f: define the repo origin: git remote add origin https://github.com/ahmedabdelkarim34-13001/se-sprint0.git then, run git push -u origin master
+4-h: create new branch: git checkout -b ReadMe
+4-i: git add -i --> 4 (add untracked) --> select file (README.md)
+4-j: git commit, then add a commit msg. will commit on the readme branch because the context is switched to that branch on step 4-h
+4-K: git checkout master then, git merge ReadMe
